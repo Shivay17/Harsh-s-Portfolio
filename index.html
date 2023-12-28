@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARSH-Portfolio Website</title>
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(20, 1, 71);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 32);
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li {
+        margin: 0 23px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    li a:hover {
+        color: rgb(161, 161, 248);
+        font-size: 1.04rem;
+    }
+
+    .left {
+        font-size: 3.5vh;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 25vh 0px;
+        align-items: center;
+    }
+
+    .firstSection>.leftsection {
+        width: 40%;
+    }
+
+    .leftsection {
+        /* background-color: red; */
+        font-size: 3.2rem;
+    }
+
+    .leftsection>div {
+        font-size: 2.2rem;
+    }
+
+    .leftsection .btn {
+        color: #a866e8;
+        font-size: 20px;
+        background-color: #140147;
+        padding: 6px;
+        border: solid white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .leftsection .btn-Github {
+        color: #a866e8;
+        font-size: 20px;
+        background-color: #ffffff;
+        padding: 6px;
+        border: solid white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .rightsection {
+        /* background-color: red; */
+        width: 30%;
+    }
+
+    .rightsection img {
+        width: 100%;
+    }
+
+    .Purple {
+        color: rgb(166, 100, 229);
+    }
+
+    #element {
+        color: rgb(166, 100, 229);
+    }
+
+    /* section 2  */
+
+    .secondSection {
+        max-width: 85vw;
+        margin: auto;
+        height: 80vh;
+    }
+
+    .secondSection h1 {
+        font-size: 1.9rem;
+    }
+
+    .text-grey {
+        color: grey;
+    }
+
+    .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 62px 0px 50px 0px;
+        display: flex;
+    }
+
+    .secondSection .vertical {
+
+        margin: 0 100px;
+        background-color: white;
+        height: 93px;
+        width: 1px;
+
+    }
+
+    .secondSection .vertical img {
+        width: 63px;
+        position: relative;
+        top: -63px;
+        left: -30px;
+    }
+
+    /* work experiance text */
+    .vertical-title {
+        position: relative;
+        top: 34px;
+        left: -16px;
+        width: 160px;
+    }
+
+    .vertical-dash {
+        position: relative;
+        top: 35px;
+        width: 140px;
+        left: -14px;
+        font-size: 10px;
+        color: grey;
+    }
+
+    /* FOOTER */
+    footer {
+        background-color: rgb(4, 4, 32);
+        height: 203px;
+        margin: auto;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 33px 118px;
+    }
+
+    .footer ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        margin: 0 0px 0px 122px
+    }
+
+    .rigths {
+        color: grey;
+        text-align: center;
+
+
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftsection">
+                Hi my name is <span class="Purple">Harsh</span>
+                <div>& i'm a passionate </div>
+                <span id="element"></span>
+                <div class="Button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn-Github">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="1.png" alt="">
+            </div>
+        </section>
+        <!-- WORK-EXPERIANCE -->
+        <section class="secondSection">
+            <span class="text-grey">What i've done so far</span>
+            <h1>Work Experiance</h1>
+
+            <!-- box -->
+            <div class="box">
+                <!-- HTML -->
+                <div class="vertical">
+                    <img src="2.png" alt="Developer png">
+                    <div class="vertical-title">
+                        HTML Developer (2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+                <!-- CSS -->
+                <div class="vertical">
+                    <img src="css.png" alt="Developer png">
+                    <div class="vertical-title">
+                        CSS Developer (2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+                <!-- BOOTSTRAP -->
+                <div class="vertical">
+                    <img src="bootsrap.png" alt="Developer png">
+                    <div class="vertical-title">
+                        Bootsrap Developer (2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+                <!-- JavaScript -->
+                <div class="vertical">
+                    <img src="javascript.png" alt="Developer png">
+                    <div class="vertical-title">
+                        JS Developer <br>(2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+                <!-- NODE -->
+                <div class="vertical">
+                    <img src="node.png" alt="Developer png">
+                    <div class="vertical-title">
+                        Node.JS Developer (2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+                <!-- Angular -->
+                <div class="vertical">
+                    <img src="angular.png" alt="Developer png">
+                    <div class="vertical-title">
+                        Angular Developer (2021-2023)
+                    </div>
+                    <div class="vertical-dash">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Illo soluta nisi veritatis quia, eligendi sunt, sed quos tempora,
+                        facilis ab voluptas at accusamus.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Harsh's Developers Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Harsh</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                    <li>HOME</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rigths">
+            www.harshporfolio.com | All rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', '&amp; a Graphic Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
